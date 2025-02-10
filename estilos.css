@@ -52,3 +52,23 @@ input[type="checkbox"]:focus {
 .banner-3{
   background-image: url(./assets/banner-3.png);
 }
+
+
+.input-range::-webkit-slider-thumb {
+  background-color: var(--marrom-claro);
+}
+
+.input-range::-webkit-slider-thumb, footer {
+  background-color: var(--marrom-claro);
+}
+
+[data-bs-theme="dark"] {
+  color: white;
+  .nav-link, .card-body, .offcanvas, .accordion, .btn {
+    --bs-nav-link-color: white;
+    --bs-card-color: white;
+    --bs-offcanvas-color: white;
+    --bs-body-color: white;
+    --bs-body-color: white;
+  }
+}
